@@ -104,7 +104,7 @@ def main(argv):
 	print filtered_links
 	raw_input("Press Enter to continue ...")
 
-	for links in filtered_links:
+	for url in filtered_links:
 		download(url)
 
 if __name__ == "__main__":
