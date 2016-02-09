@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 # BBBC021 dataset
-links = [
+BBBC021 = [
   "https://www.broadinstitute.org/bbbc/BBBC021/BBBC021_v1_images_Week1_22123.zip",
   "https://www.broadinstitute.org/bbbc/BBBC021/BBBC021_v1_images_Week1_22141.zip",
   "https://www.broadinstitute.org/bbbc/BBBC021/BBBC021_v1_images_Week1_22161.zip",

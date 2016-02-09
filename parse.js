@@ -1,12 +1,12 @@
 
-# Get all a and convert them into an array
+//Get all a and convert them into an array
 var list = document.getElementsByTagName('a')
-var array = [].splice.call(list)
+var array = [].slice.call(list)
 
-# Get the links
+//Get the links
 var array = array.map(function(x){return x.href})
 
-# Filter for links with BBBC in it
+//Filter for links with BBBC in it
 function get_zips(x) {
 	if (x.split(".").pop() === "zip") {
 		return true
@@ -15,5 +15,5 @@ function get_zips(x) {
 	}
 }
 
-# All the links of the zipped files
+//All the links of the zipped files
 array = array.filter(get_zips)
